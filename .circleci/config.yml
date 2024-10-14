@@ -30,7 +30,7 @@ workflows:
   version: 2
   rails:
     jobs:
-      - bundler-audit:
+      - bundler-audit
       - integration:
           requires:
             - bundler-audit
